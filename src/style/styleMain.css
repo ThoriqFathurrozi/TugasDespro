@@ -1,0 +1,220 @@
+main section{
+    padding: 5% 5% 0 5% ;
+
+}
+
+/* hero section */
+
+main .containerHero{
+padding-top:20vh ;
+}
+
+main .Hero{
+    background: url(../img/hero\ img.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+main .Hero h1{
+    padding: 10vh 5vw 2vh 5vw ;
+    font-weight: 700;
+    color: white;
+    font-size: 5vw;
+    font-family: 'Inter', sans-serif;
+}
+
+main .Hero h3{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    opacity: 80%;
+    padding: 10px 5vw 10px 5vw;
+}
+
+main .Hero .link {
+    padding: 2vh 5vw 2vh 5vw ;
+}
+
+main .Hero a{
+    padding: 10px 20px ;
+    background: purple;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* End Hero section */
+
+
+
+/* Points Section */
+main .Points{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .Points>h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 10px;
+    padding-bottom: 1%;
+
+}
+
+main .Points>p{
+    text-align: center;
+    width: 60vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    opacity: 80%;
+    padding-bottom: 2%;
+}
+
+main .Points .card-container{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+
+main .Points .card-container .card{
+    gap: 2em;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+
+main .Points .card-container .card .card-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    gap: 6px;
+}
+
+main .Points .card-container .card .card-content h2{
+    padding-bottom: 2%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+main .Points .card-container .card .card-content img{
+    width: 64px;
+    padding: 10px;
+
+}
+
+/* Section box  */
+main .iklan{
+    background: #f5f5f5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+main .box {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+main .box .side{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    gap: 20px;
+}
+
+main .box .side h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: max(3em, 1em);
+}
+
+main .box .side p{
+    font-family: 'Inter', sans-serif;
+}
+
+main .box .side ul{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+main .box .side ul li{
+    font-size: max(1em,10px);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main .box .side ul li>img{
+    width: 18px;
+    height: 18px;
+
+}
+
+main .box .side a{
+    color: white;
+    padding: 2% 10px 2% 10px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    width: 120px;
+    background: purple;
+}
+
+
+/* End Section box */
+
+/* Section Review  */
+
+main .review{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 1.5em;
+}
+
+main .review .avatar {
+display: flex;
+flex-direction: column;
+gap: 1em;
+align-items: center;
+}
+
+main .review .avatar>img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+main .review .avatar p{
+    width: 40vw;
+    text-align: center;
+}
+
+main .review .motive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+main .review .motive h5{
+    font-family: 'Inter', sans-serif;
+}
+
+main .review .motive .rating .checked {
+    color: orange;
+  }

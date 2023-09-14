@@ -1,0 +1,30 @@
+nav {
+    backdrop-filter: blur(10px);
+    background: transparent;
+    position: fixed;
+    width: 90%;
+    padding: 0 5% 0 5% ;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo>img{
+    width: 64px;
+    height: 64px;
+}
+nav ul li{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+nav ul li a{
+    color: #375ca6;
+}
+nav ul{
+    align-items: center;
+    display: flex; 
+}
